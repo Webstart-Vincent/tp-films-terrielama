@@ -1,0 +1,512 @@
+*
+{
+    padding: 0px;
+    margin: 0;
+    text-decoration: none;
+  
+}
+
+body
+{
+    background-color: rgb(63, 63, 63);
+}
+
+.first_section
+{
+    border-radius: 80px;
+    background: #C6C8AE;
+    padding: 120px;
+     height: 100dvh; /*la hauteur de l'ecran */
+    align-items: center;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 40px;
+    background-color: #C6C8AE;
+    align-items: center;
+    justify-items: center;
+    margin-top: -50px;
+
+}
+
+.first_section .text
+
+{
+    /* background-color: blue; */
+    display: grid;
+    gap: 50px;
+    font-family: Syne;
+    color: #282823;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+
+
+}
+
+.first_section .text h1
+{
+    gap: 20px;
+    color: #EAEACE;
+    font-family: Syne;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+    text-transform: uppercase;
+
+}
+
+.first_section .text p
+{
+    font-size: 30px;
+
+}
+
+.first_section .picture
+{
+    /* background-color: rebeccapurple; */
+    border-radius: 40px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    
+}
+
+/* ------------------------------------------------------------------------- */
+
+.second_section
+{
+    border-radius: 80px;
+    background: #C6C8AE;
+    padding: 120px;
+     height: 100dvh; /*la hauteur de l'ecran */
+    align-items: center;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 40px;
+    background-color: #B60504;
+    align-items: center;
+    justify-items: center;
+}
+
+.second_section .text
+
+{
+    /* background-color: blue; */
+    display: grid;
+    gap: 50px;
+    font-family: Syne;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+
+
+}
+
+.second_section .text h1
+{
+    gap: 20px;
+    color: #EAEACE;
+    font-family: Syne;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+    text-transform: uppercase;
+
+}
+
+.second_section .text p
+{
+    font-size: 30px;
+}
+
+.second_section .picture
+{
+    /* background-color: rebeccapurple; */
+    border-radius: 40px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    max-height: 100%;
+}
+
+/* ------------------------------------------------------------------------- */
+.third_section
+{
+    border-radius: 80px;
+    background: #C6C8AE;
+    padding: 120px;
+     height: 100dvh; /*la hauteur de l'ecran */
+    align-items: center;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 40px;
+    background-color: #050505;
+    align-items: center;
+    justify-items: center;
+}
+
+.third_section .text
+{
+    display: grid;
+    gap: 50px;
+    font-family: Syne;
+    color: #EAEACE;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+
+}
+
+.third_section .text h1
+{
+    gap: 20px;
+    color: #EAEACE;
+    font-family: Syne;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+    text-transform: uppercase;
+
+
+}
+
+.third_section .text p
+{
+    font-size: 30px;
+}
+
+.third_section .picture
+{
+    border-radius: 40px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    max-height: 100%;
+}
+
+
+/* ------------------------------------------------------------------------- */
+
+.fourth_section
+{
+    border-radius: 80px;
+    padding: 120px;
+    height: 100dvh; ; 
+     width: 100;
+    align-items: center;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 40px;
+    background-color:#7C4319;
+    align-items: center;
+    justify-items: center;
+}
+
+.fourth_section .text
+
+{
+    display: grid;
+    gap: 50px;
+    font-family: Syne;
+    color: #EAEACE;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+
+}
+
+.fourth_section .text h1
+{
+    gap: 20px;
+    color: #EAEACE;
+    font-family: Syne;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+    text-transform: uppercase;
+
+}
+
+.fourth_section .text p
+{
+    font-size: 30px;
+}
+
+.fourth_section .picture
+{
+    border-radius: 40px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    max-height: 100%;
+}
+ 
+
+
+/* ------------------------------------------------------------------------- */
+
+.fifth_section
+{
+    border-radius: 80px;
+    padding: 120px;
+     height: 100dvh; ; 
+    width: 100;
+    align-items: center;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 40px;
+    background-color:#311D0F;
+    align-items: center;
+    justify-items: center;
+}
+
+.fifth_section .text
+
+{
+    display: grid;
+    gap: 50px;
+    font-family: Syne;
+    color: #EAEACE;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+
+}
+
+.fifth_section .text h1
+{
+    gap: 20px;
+    color: #EAEACE;
+    font-family: Syne;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+    text-transform: uppercase;
+
+}
+
+.fifth_section .text p
+{
+    font-size: 30px;
+}
+.fifth_section .picture
+{
+    border-radius: 40px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    max-height: 100%;
+}
+ 
+
+/* ------------------------------------------------------------------------- */
+
+.sixth_section
+{
+    border-radius: 80px;
+    padding: 120px;
+     height: 100dvh; 
+     width: 100;
+    align-items: center;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 40px;
+    background-color:#17191E;
+    align-items: center;
+    justify-items: center;
+}
+
+.sixth_section .text
+
+{
+    display: grid;
+    gap: 50px;
+    font-family: Syne;
+    color: #EAEACE;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+
+}
+
+.sixth_section .text h1
+{
+    gap: 20px;
+    color: #EAEACE;
+    font-family: Syne;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+    text-transform: uppercase;
+
+}
+
+.sixth_section .text p
+{
+    font-size: 30px;
+}
+.sixth_section .picture
+{
+    border-radius: 40px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    max-height: 100%;
+}
+
+/* ------------------------------------------------------------------------- */
+
+
+main {
+    
+    display: grid;
+    gap: 40px;
+    padding: 40px;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    /* overflow-y: hidden; */
+    /* Suppression de grid-auto-flow: column; */
+    grid-template-rows: calc(100vh - 80px); /* Utilisation de grid-template-rows pour la hauteur */
+    /* Suppression de grid-auto-columns: calc(100vw - 80px); */
+    /* Modification de scroll-snap-type pour l'axe y */
+    scroll-snap-type: y mandatory;
+}
+
+section {
+    /* Modification de scroll-snap-align pour l'axe y */
+    scroll-snap-align: start;
+}
+
+/* ------------------------------------------------------------------------- */
+
+
+@media(max-width: 1024px) and (orientation: portrait)
+{
+
+    .first_section
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .first_section .text 
+    {
+        display: none;
+    }
+
+    .first_section .picture 
+    {
+background-color: rgba(255, 255, 255, 0.131);
+    }
+
+
+
+/* ---------------------------------------------------------------------- */
+
+.second_section
+{
+    grid-template-columns: 1fr;
+    
+}
+
+.second_section .text 
+{
+    display: none;
+}
+
+.second_section .picture 
+{
+background-color: rgba(255, 255, 255, 0.131);
+}
+
+/* ---------------------------------------------------------------------- */
+
+.third_section
+{
+    grid-template-columns : 1fr;
+}
+
+.third_section .text 
+{
+    display: none;
+}
+
+.third_section .picture 
+{
+background-color: rgba(255, 255, 255, 0.131);
+}
+
+
+/* ---------------------------------------------------------------------- */
+
+.fourth_section
+{
+    grid-template-columns: 1fr;
+}
+
+.fourth_section .text 
+{
+    display: none;
+}
+
+.fourth_section .picture 
+{
+background-color: rgba(255, 255, 255, 0.131);
+}
+
+/* ---------------------------------------------------------------------- */
+
+.fifth_section
+{
+    grid-template-columns: 1fr;
+}
+
+.fifth_section .text 
+{
+    display: none;
+}
+
+.fifth_section .picture 
+{
+background-color: rgba(255, 255, 255, 0.131);
+}
+
+/* ---------------------------------------------------------------------- */
+
+.sixth_section
+{
+    grid-template-columns: 1fr;
+}
+
+.sixth_section .text 
+{
+    display: none;
+}
+
+.sixth_section .picture 
+{
+background-color: rgba(255, 255, 255, 0.131);
+}
+
+
+}
+
